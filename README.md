@@ -64,7 +64,7 @@
     <button @click="toggleImages11" class="tenth-button">Toggle Image 27</button>
         <!-- Image 27 is also known as "Syncope Phrase" -->    
     <img v-if="showimage27" src="https://i.imgur.com/OXq5Yk4.png" alt="Image 27" height="75" width= "250" class="image27" />
-        <!-- Image 28 is also known as "Syncope  Button" -->
+        <!-- Image 28 is also known as "Syncope  Button" --> 
     <img v-if="showimage28" src="https://i.imgur.com/lDoAYQI.png" alt="Image 28" height="150" width= "150" class="image28" />
     <!-- Heart - Syncope -->
     <img v-if="showimage29" src="https://i.imgur.com/Bh80jp0.png" alt="Image 29" height="200" width= "350" class="image29" />
