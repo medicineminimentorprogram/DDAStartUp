@@ -67,7 +67,7 @@
         <!-- Image 28 is also known as "Syncope  Button" -->
     <img v-if="showimage28" src="https://i.imgur.com/lDoAYQI.png" alt="Image 28" height="150" width= "150" class="image28" />
     <!-- Heart - Syncope -->
-    <img v-if="showimage29" src="https://i.imgur.com/Bh80jp0.png" alt="Image 29" height="200" width= "350" class="image29" />
+    <img v-if="showimage29" src="https://i.imgur.com/Bh80jp0.png" alt="Image 29" height="200" width= "400" class="image29" />
     <button @click="toggleImages12" class="eleventh-button">Toggle Image 30</button>
         <!-- Image 30 is also known as "Weight Loss Phrase" -->    
     <img v-if="showimage30" src="https://i.imgur.com/lT0JvP1.png" alt="Image 30" height="50" width= "250" class="image30" />
@@ -152,7 +152,7 @@
     <img v-if="showimage78" src="https://i.imgur.com/p8tmJcC.png" alt="Image 78" height="150" width= "275" class="image78" />     
     <button @click="toggleImages29" :class="{ large4: large4 }" class="twenty-eighth-button">Toggle Image 79</button>    
     <!-- Infective Endocarditis Card -->
-    <img v-if="showimage79" src="https://i.imgur.com/CSlr7GE.png" alt="Image 79" height="400" width= "6500" class="image79" />
+    <img v-if="showimage79" src="https://i.imgur.com/CSlr7GE.png" alt="Image 79" height="400" width= "650" class="image79" />
     <!-- Infective Endocarditis Button -->
     <img v-if="showimage80" src="https://i.imgur.com/8nxKxyV.png" alt="Image 80" height="150" width= "350" class="image80" />          
     <button @click="toggleImages30" :class="{ large5: large5 }" class="twenty-ninenth-button">Toggle Image 81</button>    
@@ -326,8 +326,8 @@
     <img v-if="showimage155" src="https://i.imgur.com/27yZsJr.png" alt="Image 155" height="125" width= "400" class="image155" />  
     <!-- Red Lower Limb - Deep Venous Thrombosis -->
     <img v-if="showimage156" src="https://i.imgur.com/CpH4n7A.png" alt="Image 156" height="150" width= "275" class="image156" />     
-    <!-- Peripheral Edema - CREAM -->
-    <img v-if="showimage157" src="https://i.imgur.com/uyZYWEx.png" alt="Image 157" height="200" width= "425" class="image157" />      
+    <!-- Heart - CREAM -->
+    <img v-if="showimage157" src="https://i.imgur.com/LjM0yyD.png" alt="Image 157" height="600" width= "700" class="image157" />      
     <!-- CREAM - Kawasakis Disease -->
     <img v-if="showimage158" src="https://i.imgur.com/TxERLtz.png" alt="Image 158" height="275" width= "275" class="image158" />       
     <!-- Jugular Venous Distention - Decreased Heart Sound -->
@@ -338,22 +338,29 @@
     <img v-if="showimage161" src="https://i.imgur.com/r7sDFz1.png" alt="Image 161" height="500" width= "250" class="image161" />     
     <!-- Hypotension - Cardiac Tamponade -->
     <img v-if="showimage162" src="https://i.imgur.com/E36FZvS.png" alt="Image 162" height="275" width= "625" class="image162" /> 
-    <!-- Substernal Chest Pain - Improve with Rest -->
-    <img v-if="showimage163" src="https://i.imgur.com/kvxmHuE.png" alt="Image 163" height="450" width= "20" class="image163" />     
+    <!-- Substernal Chest Pain - Fail to Improve with Rest -->
+    <img v-if="showimage163" src="https://i.imgur.com/4SMlfdO.png" alt="Image 163" height="500" width= "200" class="image163" />     
     <!-- Improve with Rest - None ST Elevated Myocardial Infarction -->
-    <img v-if="showimage164" src="https://i.imgur.com/kvxmHuE.png" alt="Image 164" height="400" width= "20" class="image164" /> 
+    <img v-if="showimage164" src="https://i.imgur.com/IKSPOmi.png" alt="Image 164" height="325" width= "225" class="image164" /> 
     <!-- Sharp Chest Pain - Uremic Pericarditis -->
     <img v-if="showimage165" src="https://i.imgur.com/lGLhfOn.png" alt="Image 165" height="300" width= "400" class="image165" />     
-    <!-- Singularity 1 - Emotional Distress -->
-    <img v-if="showimage166" src="https://i.imgur.com/9sFsovq.png" alt="Image 166" height="20" width= "500" class="image166" />  
+    <!-- Improve with Rest - Emotional Distress -->
+    <img v-if="showimage166" src="https://i.imgur.com/uP3wbXs.png" alt="Image 166" height="20" width= "200" class="image166" />  
     <!-- Emotional Distress - Takatsubos Disease -->
-    <img v-if="showimage167" src="https://i.imgur.com/betxp92.png" alt="Image 167" height="20" width= "300" class="image167" /> 
-    <!-- Singularity 1 - Stable Angina -->
-    <img v-if="showimage168" src="https://i.imgur.com/9sFsovq.png" alt="Image 168" height="20" width= "425" class="image168" /> 
-    <!-- Singularity 1 - Unstable Angina -->
-    <img v-if="showimage169" src="https://i.imgur.com/9byPES1.png" alt="Image 169" height="175" width= "225" class="image169" />    
-    <!-- Singularity 1 - ST Elevated Myocardial Infarction -->
-    <img v-if="showimage170" src="https://i.imgur.com/w6cl8qx.png" alt="Image 170" height="175" width= "225" class="image170" />                                                                                                                               
+    <img v-if="showimage167" src="https://i.imgur.com/betxp92.png" alt="Image 167" height="20" width= "240" class="image167" /> 
+    <!-- Substernal Chest Pain - Improve with Rest -->
+    <img v-if="showimage168" src="https://i.imgur.com/zQgFkda.png" alt="Image 168" height="500" width= "250" class="image168" /> 
+    <!-- Improve with Rest - Stable Angina -->
+    <img v-if="showimage169" src="https://i.imgur.com/7lfks4b.png" alt="Image 169" height="400" width= "20" class="image169" />    
+    <!-- Improve with Rest - ST Elevated Myocardial Infarction -->
+    <img v-if="showimage170" src="https://i.imgur.com/Qg2Kpjt.png" alt="Image 170" height="200" width= "325" class="image170" />
+    <button @click="toggleImages53" :class="{ large26: large26 }" class="fiftieth-one-button">Toggle Image 171</button>                       
+    <!-- Fail to Improve with Rest Phrase -->
+    <img v-if="showimage171" src="https://i.imgur.com/NdliwTU.png" alt="Image 171" height="140" width= "200" class="image171" />    
+    <!-- Fail to Improve with Rest Button-->
+    <img v-if="showimage172" src="https://i.imgur.com/rfZVRph.png" alt="Image 172" height="150" width= "150" class="image172" />
+    <!-- Fail to Improve with Rest - Unstable Angina -->
+    <img v-if="showimage173" src="https://i.imgur.com/eAUVu58.png" alt="Image 173" height="400" width= "20" class="image173" />                                                                                                                                       
   </div>
 </template>
 
@@ -528,7 +535,9 @@ export default {
       showimage168: true, //
       showimage169: true, //
       showimage170: true, //
-      showimage171: true, //
+      showimage171: false, // initialize Fair to Improve with Rest Button with a value of true
+      showimage172: true, // 
+      showimage173: true, // 
       large: false, // 
       large2: false, // 
       large3: false, //   
@@ -554,6 +563,7 @@ export default {
       large23: false, // 
       large24: false, // 
       large25: false, // 
+      large26: false, // 
     }
   },
   methods: {
@@ -757,6 +767,9 @@ export default {
       this.showimage128 = !this.showimage128; 
       this.large25 = !this.large25; // toggle the value of large
     }, 
+    toggleImages53() {
+      this.showimage171 = !this.showimage171; // toggle the value of Fail to Improve with Rest Phrase
+    },       
   },
   
   mounted() {
@@ -1017,8 +1030,8 @@ export default {
   /* styles for the CREAM button */
   .eightteenth-button {
     position: absolute;
-    top: 5103px;
-    left: 5288px;
+    top: 5150px;
+    left: 5255px;
     height: 75px; /* this will make the button bigger */
     width: 75px; /* this will make the button bigger */
     border-radius: 50% 50%; /* this will create a more rounded shape */
@@ -1127,12 +1140,12 @@ export default {
     width: 165px; /* this will make the button bigger */
     border-radius: 0;
     z-index: 1.5; /* this will position the button behind the images */
-    opacity: 0;
+    opacity: 00;
   }       
 
   /* styles for the button when it's in the large state */
   button.large2 {
-    top: 2155px;
+    top: 2805px;
     left: 5090px;
     height: 400px; /* this will make the button twice as big as the default size */
     width: 650px; /* this will make the button twice as big as the default size */
@@ -1540,7 +1553,7 @@ export default {
   .forty-fourth-button {
     position: absolute;
     top: 2543px;
-    left: 4338px;
+    left: 4038px;
     height: 75px; /* this will make the button bigger */
     width: 75px; /* this will make the button bigger */
     border-radius: 50% 50%; /* this will create a more rounded shape */
@@ -1552,32 +1565,32 @@ export default {
   /* styles for the Emotional Distress button */
   .forty-fifth-button {
     position: absolute;
-    top: 2543px;
-    left: 5038px;
+    top: 2540px;
+    left: 3640px;
     height: 75px; /* this will make the button bigger */
     width: 75px; /* this will make the button bigger */
     border-radius: 50% 50%; /* this will create a more rounded shape */
     transform: scale(2); /* this will make the button 1.5 times bigger */
     z-index: 1.5; /* this will position the button behind the images */
-    opacity: 0;
+    opacity: 00;
   }   
   
    /* styles for the Stable Angina button */
    .fourty-sixth-button {
     position: absolute;
-    top: 2537px;
-    left: 3657px;
+    top: 1945px;
+    left: 4010px;
     height: 78px; /* this will make the button bigger */
     width: 115px; /* this will make the button bigger */
     border-radius: 0;
     z-index: 1.5; /* this will position the button behind the images */
-    opacity: 0;
+    opacity: 00;
   }       
 
   /* styles for the button when it's in the large state */
   button.large21 {
-    top: 2503px;
-    left: 3600px;
+    top: 1903px;
+    left: 3950px;
     height: 400px; /* this will make the button twice as big as the default size */
     width: 750px; /* this will make the button twice as big as the default size */
     transform: scale(1); /* this will make the button the same size as the default size */
@@ -1587,8 +1600,8 @@ export default {
    /* styles for the Unstable Angina button */
    .fourty-seventh-button {
     position: absolute;
-    top: 2188px;
-    left: 3870px;
+    top: 1940px;
+    left: 4622px;
     height: 75px; /* this will make the button bigger */
     width: 138px; /* this will make the button bigger */
     border-radius: 0;
@@ -1598,10 +1611,10 @@ export default {
 
   /* styles for the button when it's in the large state */
   button.large22 {
-    top: 2150px;
-    left: 3800px;
+    top: 1900px;
+    left: 4550px;
     height: 400px; /* this will make the button twice as big as the default size */
-    width: 7500px; /* this will make the button twice as big as the default size */
+    width: 750px; /* this will make the button twice as big as the default size */
     transform: scale(1); /* this will make the button the same size as the default size */
     border-radius: 0; /* this will remove the rounded corners and make the button a square */
   }   
@@ -1609,30 +1622,30 @@ export default {
    /* styles for the None ST Elevated Myocardial Infarction button */
    .fourty-eigth-button {
     position: absolute;
-    top: 1942px;
-    left: 4300px;
+    top: 2040px;
+    left: 5000px;
     height: 75px; /* this will make the button bigger */
     width: 165px; /* this will make the button bigger */
     border-radius: 0;
     z-index: 1.5; /* this will position the button behind the images */
-    opacity: 0;
+    opacity: 00;
   }       
 
   /* styles for the button when it's in the large state */
   button.large23 {
-    top: 1903px;
-    left: 4220px;
-    height: 200px; /* this will make the button twice as big as the default size */
-    width: 425px; /* this will make the button twice as big as the default size */
+    top: 2005px;
+    left: 4927px;
+    height: 400px; /* this will make the button twice as big as the default size */
+    width: 850px; /* this will make the button twice as big as the default size */
     transform: scale(1); /* this will make the button the same size as the default size */
-    border-radius: 0; /* this will remove the rounded corners and make the button a square */
+    border-radius: 100; /* this will remove the rounded corners and make the button a square */
   }   
   
    /* styles for the ST Elevated Myocardial Infarction button */
    .fourty-ninenth-button {
     position: absolute;
-    top: 2195px;
-    left: 4765px; 
+    top: 2250px;
+    left: 5100px;
     height: 90px; /* this will make the button bigger */
     width: 140px; /* this will make the button bigger */
     border-radius: 0;
@@ -1653,23 +1666,36 @@ export default {
    /* styles for the Takatsubos Disease button */
    .fiftieth-button {
     position: absolute;
-    top: 2543px;
-    left: 5578px;
+    top: 2540px;
+    left: 3085px;
     height: 75px; /* this will make the button bigger */
     width: 165px; /* this will make the button bigger */
     border-radius: 0;
     z-index: 1.5; /* this will position the button behind the images */
-    opacity: 0;
+    opacity: 00;
   }       
 
   /* styles for the button when it's in the large state */
   button.large25 {
-    top: 2502px;
-    left: 5500px;
+    top: 2500px;
+    left: 3000px;
     height: 400px; /* this will make the button twice as big as the default size */
     width: 750px; /* this will make the button twice as big as the default size */
     transform: scale(1); /* this will make the button the same size as the default size */
     border-radius: 0; /* this will remove the rounded corners and make the button a square */
+  }     
+
+  /* styles for the Fail to Improve with Rest button */
+  .fiftieth-one-button {
+    position: absolute;
+    top: 2543px;
+    left: 4638px;
+    height: 75px; /* this will make the button bigger */
+    width: 75px; /* this will make the button bigger */
+    border-radius: 50% 50%; /* this will create a more rounded shape */
+    transform: scale(2); /* this will make the button 1.5 times bigger */
+    z-index: 1.5; /* this will position the button behind the images */
+    opacity: 0;
   }     
 
   /* styles for Cardiovascular Fundamentals */
@@ -1924,7 +1950,7 @@ export default {
   /* Transform skew can help with rotation and tilting of the line */
   img.image29 {
   top: 4475px;
-  left: 3930px;
+  left: 3875px;
   position: absolute;
   z-index: -4;
   }
@@ -2049,8 +2075,8 @@ export default {
     /* styles for CREAM Phrase */
   /* Transform skew can help with rotation and tilting of the line */
   img.image51 {
-  top: 5225px;
-  left: 5200px;
+  top: 5275px;
+  left: 5170px;
   position: absolute;
   z-index: -.5;
   }  
@@ -2058,8 +2084,8 @@ export default {
     /* styles for CREAM Button */
   /* Transform skew can help with rotation and tilting of the line */
   img.image52 {
-  top: 5065px;
-  left: 5250px;
+  top: 5115px;
+  left: 5220px;
   position: absolute;
   z-index: -4;
   }   
@@ -2192,7 +2218,7 @@ export default {
 
   /* styles for Uremic Pericarditis Card */
   img.image75 {
-  top: 2155px;
+  top: 2805px;
   left: 5090px;
   position: absolute;
   z-index: -.3;
@@ -2497,7 +2523,7 @@ export default {
     /* styles for Improve with Rest Phrase */
   img.image113 {
   top: 2675px;
-  left: 4280px;
+  left: 3980px;
   position: absolute;
   z-index: -.5;
   }    
@@ -2505,7 +2531,7 @@ export default {
     /* styles for Improve with Rest Button */
   img.image114 {
   top: 2503px;
-  left: 4300px;
+  left: 4000px;
   position: absolute;
   z-index: -4;
   }    
@@ -2520,8 +2546,8 @@ export default {
 
   /* styles for Emotional Distress Phrase */
   img.image116 {
-  top: 2675px;
-  left: 4980px;
+  top: 2680px;
+  left: 3575px;
   position: absolute;
   z-index: -4;
   }    
@@ -2529,7 +2555,7 @@ export default {
   /* styles for Emotional Distress Button */
   img.image117 {
   top: 2503px;
-  left: 5000px;
+  left: 3600px;
   position: absolute;
   z-index: -4;
   }    
@@ -2544,64 +2570,64 @@ export default {
 
   /* styles for Stable Angina Card */
   img.image119 {
-  top: 2503px;
-  left: 3600px;
+  top: 1903px;
+  left: 3950px;
   position: absolute;
   z-index: -.3;
   }
 
   /* styles for Stable Angina Button */
   img.image120 {
-  top: 2503px;
-  left: 3600px;
+  top: 1903px;
+  left: 3950px;
   position: absolute;
   z-index: -1;
   }    
   
   /* styles for Unstable Angina Card */
   img.image121 {
-  top: 2150px;
-  left: 3800px;
+  top: 1903px;
+  left: 4550px;
   position: absolute;
   z-index: -.3;
   }
 
   /* styles for Unstable Angina Button */
   img.image122 {
-  top: 2150px;
-  left: 3800px;
+  top: 1903px;
+  left: 4550px;
   position: absolute;
   z-index: -1;
   }    
   
   /* styles for None ST Elevated Myocardial Infarction Card */
   img.image123 {
-  top: 1903px;
-  left: 4220px;
+  top: 2003px;
+  left: 4925px;
   position: absolute;
   z-index: -.3;
   }
 
   /* styles for None ST Elevated Myocardial Infarction Button */
   img.image124 {
-  top: 1903px;
-  left: 4220px;
+  top: 2003px;
+  left: 4925px;
   position: absolute;
   z-index: -1;
   }    
   
   /* styles for ST Elevated Myocardial Infarction Card */
   img.image125 {
-  top: 2150px;
-  left: 4700px;
+  top: 2250px;
+  left: 5100px;
   position: absolute;
   z-index: -.3;
   }
 
   /* styles for ST Elevated Myocardial Infarction Button */
   img.image126 {
-  top: 2150px;
-  left: 4700px;
+  top: 2250px;
+  left: 5100px;
   position: absolute;
   z-index: -1;
   }    
@@ -2609,7 +2635,7 @@ export default {
   /* styles for Takatsubos Disease Card */
   img.image127 {
   top: 2503px;
-  left: 5500px;
+  left: 3000px;
   position: absolute;
   z-index: -.3;
   }
@@ -2617,7 +2643,7 @@ export default {
   /* styles for Takatsubos Disease Button */
   img.image128 {
   top: 2503px;
-  left: 5500px;
+  left: 3000px;
   position: absolute;
   z-index: -1;
   }      
@@ -2845,17 +2871,17 @@ export default {
   z-index: -3;
   }          
 
-  /* styles for  Peripheral Edema - CREAM */
+  /* styles for  Heart - CREAM */
   img.image157 {
-  top: 4925px;
-  left: 4815px;
+  top: 4550px;
+  left: 4515px;
   position: absolute;
   z-index: -3;
   }     
 
   /* styles for  CREAM - Kawasakis Disease */
   img.image158 {
-  top: 5200px;
+  top: 5250px;
   left: 5370px;
   position: absolute;
   z-index: -3;
@@ -2893,18 +2919,18 @@ export default {
   z-index: -3;
   }     
   
-  /* styles for  Substernal Chest Pain - Improve with Rest */
+  /* styles for  Substernal Chest Pain - Fail to Improve with Rest */
   img.image163 {
-  top: 2680px;
-  left: 4375px;
+  top: 2660px;
+  left: 4440px;
   position: absolute;
   z-index: -3;
   }        
   
   /* styles for  Improve with Rest - None ST Elevated Myocardial Infarction */
   img.image164 {
-  top: 2080px;
-  left: 4375px;
+  top: 2160px;
+  left: 4700px;
   position: absolute;
   z-index: -3;
   }   
@@ -2917,10 +2943,10 @@ export default {
   z-index: -3;
   }   
 
-  /* styles for  Singularity 1 - Emotional Distress */
+  /* styles for  Improve with Rest - Emotional Distress */
   img.image166 {
   top: 2575px;
-  left: 4475px;
+  left: 3775px;
   position: absolute;
   z-index: -3;
   }     
@@ -2928,33 +2954,57 @@ export default {
   /* styles for  Emotional Distress - Takatsubos Disease */
   img.image167 {
   top: 2575px;
-  left: 5175px;
+  left: 3340px;
   position: absolute;
   z-index: -3;
   }       
 
-  /* styles for  Singularity 1 - Stable Angina */
+  /* styles for  Substernal Chest Pain - Improve with Rest */
   img.image168 {
-  top: 2575px;
-  left: 3850px;
+  top: 2660px;
+  left: 4100px;
   position: absolute;
   z-index: -3;
   }     
 
-  /* styles for  Singularity 1 - Unstable Angina */
+  /* styles for Improve with Rest - Stable Angina */
   img.image169 {
-  top: 2325px;
-  left: 4100px;
+  top: 2075px;
+  left: 4065px;
   position: absolute;
   z-index: -3;
   }       
 
-  /* styles for  Singularity 1 - ST Myocardial Infarction */
+  /* styles for Improve with Rest - ST Myocardial Infarction */
   img.image170 {
   top: 2325px;
-  left: 4450px;
+  left: 4750px;
   position: absolute;
   z-index: -3;
   }      
+
+  /* styles for Fail to Improve with Rest Phrase */
+  img.image171 {
+  top: 2675px;
+  left: 4580px;
+  position: absolute;
+  z-index: -.5;
+  }    
+
+  /* styles for Fail to Improve with Rest Button */
+  img.image172 {
+  top: 2503px;
+  left: 4600px;
+  position: absolute;
+  z-index: -4;
+  }   
+
+  /* styles for Fail to Improve with Rest - Unstable Angina */
+  img.image173 {
+  top: 2075px;
+  left: 4650px;
+  position: absolute;
+  z-index: -3;
+  }       
 </style>
 
