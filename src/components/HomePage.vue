@@ -9,7 +9,7 @@
         <!-- Image 3 is also known as "Palpitation Phrase" -->    
     <img v-if="showimage3" src="https://i.imgur.com/WY4uKAt.png" alt="Image 3" height="75" width= "300" class="image3" />
         <!-- Image 4 is also known as "Palpitation  Button" -->
-    <img v-if="showimage4" src="https://i.imgur.com/v0EwMuF.png" alt="Image 4" height="150" width= "150" class="image4" />
+    <img v-if="showimage4" src="https://i.imgur.com/t1mMMUg.png" alt="Image 4" height="150" width= "150" class="image4" />
     <!-- Heart - Palpitation -->
     <img v-if="showimage5" src="https://i.imgur.com/QWkQZNJ.png" alt="Image 5" height="275" width= "250" class="image5" />
     <button @click="toggleImages4" class="third-button">Toggle Image 6</button> 
